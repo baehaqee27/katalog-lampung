@@ -28,10 +28,10 @@ export default function QRPage() {
           }
         }
       `}</style>
-      <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4 sm:p-8 relative overflow-hidden print:p-0 print:bg-background">
+      <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4 sm:p-8 relative overflow-hidden print:p-0 print:bg-white">
         
         {/* Grid Pattern Background */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808020_1px,transparent_1px),linear-gradient(to_bottom,#80808020_1px,transparent_1px)] bg-[size:32px_32px]"></div>
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808020_1px,transparent_1px),linear-gradient(to_bottom,#80808020_1px,transparent_1px)] bg-[size:32px_32px] print:hidden"></div>
 
         {/* Navigation & Controls */}
         <div className="w-full max-w-4xl flex justify-between items-center mb-6 md:mb-10 z-10 print:hidden">

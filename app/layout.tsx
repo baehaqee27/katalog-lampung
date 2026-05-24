@@ -38,9 +38,7 @@ export default function RootLayout({
       )}
     >
       <body className="min-h-screen bg-muted flex flex-col font-sans">
-        <div className="w-full max-w-md mx-auto min-h-screen bg-background text-foreground shadow-xl overflow-hidden flex flex-col relative border-x border-border">
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );
