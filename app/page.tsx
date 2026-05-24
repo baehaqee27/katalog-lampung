@@ -284,23 +284,31 @@ export default function HomePage() {
       {/* Footer / Presenter Profile */}
       <div className="px-5 pt-4 pb-8 mt-4">
         <Card className="border-[3px] border-foreground shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-ring p-4 flex flex-row items-center gap-4">
-          <Avatar className="w-12 h-12 border-[3px] border-foreground shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
-            <AvatarImage
-              src="/keyy.jpeg"
-              alt="Keysha Sudrajat Puteri"
-              className="object-cover"
-            />
-            <AvatarFallback className="bg-background text-foreground font-black">
-              <User className="w-6 h-6" />
-            </AvatarFallback>
-          </Avatar>
+          <Link
+            href="https://www.instagram.com/rzlbaihaqi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Avatar className="w-12 h-12 border-[3px] border-foreground shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:scale-105 transition-transform cursor-pointer">
+              <AvatarImage
+                src="/keyy.jpeg"
+                alt="Keysha Sudrajat Puteri"
+                className="object-cover"
+              />
+              <AvatarFallback className="bg-background text-foreground font-black">
+                <User className="w-6 h-6" />
+              </AvatarFallback>
+            </Avatar>
+          </Link>
           <div>
             <p className="text-xs font-bold text-foreground uppercase tracking-wider mb-1">
               Presented By
             </p>
             <Link
               href="https://www.instagram.com/rzlbaihaqi"
-              className="text-base font-black text-foreground"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base font-black text-foreground hover:underline hover:text-secondary transition-colors"
             >
               Keysha Sudrajat Puteri
             </Link>
