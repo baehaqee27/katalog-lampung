@@ -34,6 +34,7 @@ import {
   Type,
   Coins,
   Map,
+  Amphora,
 } from "lucide-react";
 
 export default function HomePage() {
@@ -59,7 +60,7 @@ export default function HomePage() {
     {
       title: "Siger & Kain Tapis",
       description: "Mahkota & tenun emas tradisional.",
-      href: "/artefak",
+      href: "/siger-tapis",
       icon: Crown,
       color: "text-accent-foreground",
       bg: "bg-accent",
@@ -127,6 +128,15 @@ export default function HomePage() {
       color: "text-accent-foreground",
       bg: "bg-accent",
       tag: "Geografi",
+    },
+    {
+      title: "Artefak Kuno",
+      description: "Kendi, keramik, dan peninggalan prasejarah.",
+      href: "/artefak",
+      icon: Amphora,
+      color: "text-primary",
+      bg: "bg-primary/20",
+      tag: "Arkeologi",
     },
   ];
 
