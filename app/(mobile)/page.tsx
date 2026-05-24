@@ -32,6 +32,8 @@ import {
   User,
   Music,
   Type,
+  Coins,
+  Map,
 } from "lucide-react";
 
 export default function HomePage() {
@@ -98,6 +100,33 @@ export default function HomePage() {
       color: "text-accent-foreground",
       bg: "bg-accent",
       tag: "Sastra",
+    },
+    {
+      title: "Pakaian Adat",
+      description: "Ragam busana tradisional Pepadun & Saibatin.",
+      href: "/pakaian-adat",
+      icon: User,
+      color: "text-primary",
+      bg: "bg-primary/20",
+      tag: "Busana",
+    },
+    {
+      title: "Mata Uang Kuno",
+      description: "Sejarah uang logam bersejarah di Lampung.",
+      href: "/mata-uang",
+      icon: Coins,
+      color: "text-secondary-foreground",
+      bg: "bg-secondary",
+      tag: "Sejarah",
+    },
+    {
+      title: "Peta Provinsi",
+      description: "Jelajahi batas wilayah Lampung.",
+      href: "/peta",
+      icon: Map,
+      color: "text-accent-foreground",
+      bg: "bg-accent",
+      tag: "Geografi",
     },
   ];
 
