@@ -36,7 +36,7 @@ export default function MataUangPage() {
         <div className="px-5 py-6 flex-1 flex flex-col gap-6">
           <div className="w-full aspect-video bg-muted flex items-center justify-center rounded-xl overflow-hidden border-[3px] border-foreground shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] relative">
             <Image
-              src="/mata-uang/uangkuno1.jfif"
+              src="/mata-uang/uangkuno1.jpg"
               alt="Mata Uang Kuno"
               fill
               className="object-cover"
@@ -84,7 +84,7 @@ export default function MataUangPage() {
               <Card className="border-[3px] border-foreground shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-4">
                 <div className="grid grid-cols-2 gap-3">
                   <div className="aspect-square bg-muted border-[2px] border-foreground rounded-lg overflow-hidden relative shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:scale-[1.02] transition-transform">
-                    <Image src="/mata-uang/uangkuno1.jfif" alt="Galeri Koin 1" fill className="object-cover" sizes="(max-width: 768px) 50vw, 250px" />
+                    <Image src="/mata-uang/uangkuno1.jpg" alt="Galeri Koin 1" fill className="object-cover" sizes="(max-width: 768px) 50vw, 250px" />
                   </div>
                   <div className="aspect-square bg-muted border-[2px] border-foreground rounded-lg overflow-hidden relative shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:scale-[1.02] transition-transform">
                     <Image src="/mata-uang/uangkuno2.jpg" alt="Galeri Koin 2" fill className="object-cover" sizes="(max-width: 768px) 50vw, 250px" />

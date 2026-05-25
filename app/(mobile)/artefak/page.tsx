@@ -89,7 +89,7 @@ export default function ArtefakKunoPage() {
                     <Image src="/artefak/kendi.jpg" alt="Artefak Kuno 1" fill className="object-cover" sizes="(max-width: 768px) 50vw, 250px" />
                   </div>
                   <div className="aspect-square bg-muted border-[2px] border-foreground rounded-lg overflow-hidden relative shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:scale-[1.02] transition-transform">
-                    <Image src="/artefak/artefak1.jfif" alt="Artefak Kuno 2" fill className="object-cover" sizes="(max-width: 768px) 50vw, 250px" />
+                    <Image src="/artefak/artefak1.jpg" alt="Artefak Kuno 2" fill className="object-cover" sizes="(max-width: 768px) 50vw, 250px" />
                   </div>
                   <div className="aspect-square bg-muted border-[2px] border-foreground rounded-lg overflow-hidden relative shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:scale-[1.02] transition-transform col-span-2">
                     <Image src="/artefak/artefak2.png" alt="Artefak Kuno 3" fill className="object-cover" sizes="(max-width: 768px) 100vw, 500px" />
